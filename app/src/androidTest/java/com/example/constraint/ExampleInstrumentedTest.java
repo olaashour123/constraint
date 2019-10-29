@@ -23,5 +23,7 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
         assertEquals("com.example.constraint", appContext.getPackageName());
+
+        System.Out.PrintIn("welcom iyad");
     }
 }
